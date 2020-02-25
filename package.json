@@ -5,6 +5,7 @@
   "version": "0.1.2",
   "author": "Smakosh <ismai23l@hotmail.com>",
   "dependencies": {
+    "assets": "^3.0.1",
     "dotenv": "^6.2.0",
     "formik": "^1.4.1",
     "gatsby": "^2.17.7",
@@ -48,6 +49,8 @@
   "devDependencies": {
     "babel-eslint": "^9.0.0",
     "babel-plugin-styled-components": "^1.10.6",
+    "components": "^0.1.0",
+    "data": "^0.6.1",
     "eslint": "^5.14.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",

@@ -1,15 +1,15 @@
 module.exports = {
-  defaultTitle: 'John Doe',
+  defaultTitle: 'Ivan Zucchi',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
+  author: 'Ivan Zucchi',
   url: 'https://portfolio.smakosh.com',
-  legalName: 'John Doe',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  legalName: 'Ivan Zucchi',
+  defaultDescription: 'I’m Ivan and I’m a full-stack developer!',
   socialLinks: {
     twitter: 'http://www.twitter.com/smakosh',
-    github: 'https://github.com/smakosh',
-    linkedin: 'https://www.linkedin.com/in/ismail-ghallou-630149122/',
-    instagram: 'https://instagram.com/smakosh19',
+    github: 'https://github.com/zucchivan',
+    linkedin: 'https://www.linkedin.com/in/zucchivan/',
+    instagram: 'https://instagram.com/zucchivan',
     youtube: 'https://www.youtube.com/user/smakoshthegamer',
     google: 'https://plus.google.com/u/0/+IsmailSmakoshGhallou',
   },
@@ -18,7 +18,7 @@ module.exports = {
   backgroundColor: '#6b63ff',
   social: {
     facebook: 'appId',
-    twitter: '@smakosh',
+    twitter: '@arrobaivan',
   },
   address: {
     city: 'City',
@@ -27,9 +27,9 @@ module.exports = {
     zipCode: 'ZipCode',
   },
   contact: {
-    email: 'email',
+    email: 'zucchivan@gmail.com',
     phone: 'phone number',
   },
-  foundingDate: '2018',
-  recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+  foundingDate: '2020',
+  recaptcha_key: '6LcmV9sUAAAAAJqsxX7f0i0Faok6zPKrJPmTELXY',
 };
