@@ -71,4 +71,6 @@ yarn-error.log
 .yarn-integrity
 yarn.lock
 
+.idea
+
 now.json
