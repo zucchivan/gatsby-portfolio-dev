@@ -1,11 +1,11 @@
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import { Container, Card } from 'components/common'
-import starIcon from 'assets/icons/star.svg'
-import forkIcon from 'assets/icons/fork.svg'
-import { Wrapper, Grid, Item, Content, Stats } from './styles'
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import { Container, Card } from 'components/common';
+import starIcon from 'assets/icons/star.svg';
+import forkIcon from 'assets/icons/fork.svg';
+import { Wrapper, Grid, Item, Content, Stats } from './styles';
 
-export const Projects = () => {
+export const OpenSource = () => {
   const {
     github: {
       viewer: {
@@ -40,8 +40,8 @@ export const Projects = () => {
     `
   )
   return (
-    <Wrapper as={Container} id="projects">
-      <h2>Projects</h2>
+    <Wrapper as={Container} id="opensource">
+      <h2>Open Source</h2>
       <Grid>
         {edges.map(({ node }) => (
           <Item
@@ -70,6 +70,11 @@ export const Projects = () => {
           </Item>
         ))}
       </Grid>
+      <br />
+      <h4>
+        For proprietary projects, please visit my{' '}
+        <a href="https://linkedin.com/in/zucchivan#projects" target="_blank">LinkedIn</a>
+      </h4>
     </Wrapper>
-  )
+  );
 }

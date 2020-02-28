@@ -12,9 +12,9 @@ export const Intro = () => (
       <Details>
         <h1>Hi there!</h1>
         <h4>I’m Ivan and I’m a computer engineer and full-stack developer!</h4>
-        <Button as={AnchorLink} href="#contact">
-          Resumé
-        </Button>
+        <a href="ivanz-cv.pdf" target="_blank">
+          Resume
+        </a>
         <Button as={AnchorLink} href="#contact">
           Hire me
         </Button>
