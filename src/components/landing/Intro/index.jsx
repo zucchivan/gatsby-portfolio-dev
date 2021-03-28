@@ -11,8 +11,8 @@ export const Intro = () => (
     <IntroWrapper as={Container}>
       <Details>
         <h1>Hi there!</h1>
-        <h4>I’m Ivan and I’m a computer engineer and full-stack developer!</h4>
-        <a href="ivanz-cv.pdf" target="_blank">
+        <h4>I’m Ivan, a computer engineer, software developer, blockchain enthusiast, bass player and full-time human.  </h4>
+        <a href="https://pdfhost.io/v/DW~HkeLZt_ivanzresumepdf.pdf" target="_blank">
           Resume
         </a>
         <Button as={AnchorLink} href="#contact">
